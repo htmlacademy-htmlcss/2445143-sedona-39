@@ -18,6 +18,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  letter-spacing: 0;
   color: #000000;
   background-color: #ffffff;
   width: 1200px;
@@ -33,7 +34,6 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0;
   text-align: left;
   color: #000000;
   text-decoration: none;
@@ -43,7 +43,6 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0;
   text-align: center;
   color: #ffffff;
   background-color: #756157;
@@ -76,7 +75,6 @@ body {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -85,7 +83,6 @@ p {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0;
   text-align: center;
 }
 
@@ -93,7 +90,6 @@ p {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   margin-top: 90px;
@@ -103,14 +99,12 @@ p {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0;
 }
 
 .infrastructure-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0;
   text-align: center;
 }
 
@@ -118,7 +112,6 @@ p {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0;
   text-align: center;
 }
 
@@ -126,7 +119,6 @@ p {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -135,7 +127,6 @@ p {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0;
   text-align: center;
 }
 
@@ -143,7 +134,6 @@ p {
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -162,7 +152,6 @@ p {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   background-image: url("../images/subscribe.png");
@@ -176,7 +165,6 @@ p {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0;
   text-align: center;
 }
 
@@ -184,7 +172,6 @@ p {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0;
   text-align: left;
 }
 
@@ -192,7 +179,6 @@ p {
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
@@ -202,5 +188,223 @@ p {
   padding: 8px, 50px, 8px, 50px;
   border-radius: 0, 4px, 4px, 0;
   gap: 10px;
-  background: #82B3D3;
+  background: #82b3d3;
 }
+
+/* catalog */
+
+.main-inner {
+  background-image: url("../images/catalog-background.jpg");
+  background-repeat: no-repeat;
+  width: Fixed (1,200px);
+  height: Hug (412px);
+  top: 64px
+  padding: 35px, 70px, 70px, 70px;
+  gap: 10px;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+} 
+
+.catalog-filter-item {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+} 
+
+.filter-range-control {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+}
+
+.catalog-filter-submit {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: Fill (191px);
+  height: Hug (36px);
+  padding: 8px, 50px, 8px, 50px;
+  border-radius: 4px;
+  gap: 10px;
+  background: #82b3d3;
+}
+
+.catalog-filter-reset {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  width: Fill (191px);
+  height: Hug (36px);
+  padding: 8px, 50px, 8px, 50px;
+  border-radius: 4px;
+  gap: 10px;
+  background: transparent;
+}
+
+.catalog-products-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.select-control { 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.product-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+}
+.product-card-type {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.product-card-price {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+}
+
+.product-card-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  width: Fill (140px);
+  height: Hug (36px);
+  padding: 8px, 50px, 8px, 50px;
+  border-radius: 4px;
+  gap: 10px;
+  background: #756157;
+}
+
+.add-favorite-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  width: Fill (140px);
+  height: Hug (36px);
+  padding: 8px, 50px, 8px, 50px;
+  border-radius: 4px;
+  gap: 10px;
+  background: #82b3d3;
+}
+
+.product-card-raiting {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 9px;
+  text-transform: uppercase;
+  color: #333333;
+  width: 140px;
+  height: 37px;
+  left: 160px;
+  border-radius: 4px;
+  background: #f2f2f2;
+}
+
+.subscribe-title-catalog {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.subscribe-title-catalog p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+/* catalog footer */
+
+.footer-phone {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
