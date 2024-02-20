@@ -26,10 +26,6 @@ body {
 
 /* header */
 
-.page-header-logo {
-  margin-left: 70px;
-}
-
 .navigation-link {
   font-size: 20px;
   font-weight: 700;
@@ -37,6 +33,16 @@ body {
   text-align: left;
   color: #000000;
   text-decoration: none;
+}
+
+.navigation-user-link-favorite {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  background: #7db54f;
 }
 
 .header-button {
@@ -56,11 +62,6 @@ body {
 }
 
 /* main */
-
-.main-index {
-
-  text-align: center;
-}
 
 .hero {
   background-image: url("../images/index-background.jpg");
@@ -108,6 +109,7 @@ p {
 
 .advantages-item {
   width: 1200px;
+  background-color: #83b3d31f;
 }
 
 .advantages-title {
@@ -117,7 +119,6 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  background-color: #83b3d31f;
 }
 
 .advantages-description {
@@ -125,7 +126,6 @@ p {
   font-weight: 400;
   line-height: 21px;
   color: #000000;
-  background-color: #83b3d31f;
 }
 
 .infrastructure-item {
@@ -138,6 +138,7 @@ p {
   font-weight: 700;
   line-height: 28px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .infrastructure-description {
@@ -170,21 +171,14 @@ p {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756157;
-  width: 376px;
-  height: 52px;
-  top: 162px;
-  left: 108px;
-  padding: 8px, 50px, 8px, 50px;
-  border-radius: 4px;
-  gap: 10px;
   text-decoration: none;
+  margin-left: 412px;
 }
 
 .subscribe {
-  width: 1200px;
-  height: 415px;
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subscribe-title {
@@ -192,7 +186,6 @@ p {
   font-weight: 700;
   line-height: 36px;
   color: #ffffff;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -201,7 +194,7 @@ p {
   font-weight: 400;
   line-height: 26px;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
 }
 
 .field {
@@ -264,7 +257,7 @@ p {
   font-weight: 400;
   line-height: 23px;
   text-align: left;
-  color: #000000;
+  color: #ffffff;
 } 
 
 .filter-range-control {
@@ -295,7 +288,7 @@ p {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
   width: Fill (191px);
   height: Hug (36px);
   padding: 8px, 50px, 8px, 50px;
@@ -408,16 +401,20 @@ p {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  text-align: center;
   color: #000000;
+  text-transform: uppercase;
 }
 
-.subscribe-title-catalog p {
+.subscribe-description-catalog {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
-  text-align: center;
   color: #000000;
+  text-align: left;
+}
+
+.subscribe-form-name {
+  text-align: left;
 }
 
 /* catalog footer */
