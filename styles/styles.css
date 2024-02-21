@@ -17,6 +17,7 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  font-weight: 400;
   line-height: 21px;
   letter-spacing: 0;
   color: #000000;
@@ -37,7 +38,6 @@ body {
 
 .navigation-user-link-favorite {
   font-size: 10px;
-  font-weight: 400;
   line-height: 10px;
   text-align: center;
   color: #ffffff;
@@ -80,7 +80,6 @@ body {
 
 p {
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   text-align: center;
 }
@@ -101,8 +100,6 @@ p {
 }
 
 .advantages-item-wide .advantages-description {
-  font-size: 18px;
-  font-weight: 400;
   line-height: 21px;
   text-align: center;
   color: #ffffff;
@@ -124,8 +121,6 @@ p {
 }
 
 .advantages-description {
-  font-size: 18px;
-  font-weight: 400;
   line-height: 21px;
   color: #000000;
 }
@@ -144,9 +139,23 @@ p {
 }
 
 .infrastructure-description {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
+  text-align: center;
+}
+
+.infrastructure-item-light {
+  width: 1200px;
+  background-color: #ffffff;
+}
+
+.infrastructure-title-light {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infrastructure-description-light {
   text-align: center;
 }
 
@@ -160,7 +169,6 @@ p {
 
 .search-description {
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   text-align: center;
 }
@@ -193,15 +201,12 @@ p {
 
 .subscribe-description {
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   color: #ffffff;
   text-align: left;
 }
 
 .field {
-  font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
@@ -227,7 +232,7 @@ p {
 .filters {
   background-image: url("../images/catalog-background.jpg");
   background-repeat: no-repeat;
-  width: 1200px;
+  background-size: cover;
 }
 
 .inner-header-title {
@@ -238,10 +243,14 @@ p {
   color: #ffffff;
 }
 
+.breadcrumbs-home-link {
+  font-size: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
 .breadcrumbs-link {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: left;
   color: #ffffff;
 }
@@ -255,15 +264,12 @@ p {
 } 
 
 .catalog-filter-item {
-  font-size: 18px;
-  font-weight: 400;
   line-height: 23px;
   text-align: left;
   color: #ffffff;
 } 
 
 .filter-range-control {
-  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   text-align: right;
@@ -308,9 +314,6 @@ p {
 }
 
 .select-control { 
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: left;
 }
 
@@ -323,16 +326,10 @@ p {
   text-decoration: none;
 }
 .product-card-type {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: left;
 }
 
 .product-card-price {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: left;
 }
 
@@ -370,7 +367,6 @@ p {
 
 .product-card-raiting {
   font-size: 16px;
-  font-weight: 400;
   line-height: 20px;
   text-align: center;
   padding-top: 9px;
@@ -409,7 +405,6 @@ p {
 
 .subscribe-description-catalog {
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   color: #000000;
   text-align: left;
@@ -423,7 +418,6 @@ p {
 
 .footer-phone {
   font-size: 40px;
-  font-weight: 400;
   line-height: 40px;
   text-align: center;
   text-decoration: none;
