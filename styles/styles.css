@@ -61,9 +61,15 @@ body {
   text-transform: uppercase;
 }
 
+.visually-hidden {
+  position: fixed;
+  display: none;
+}
+
 /* main */
 
 .hero {
+  background-color: #f2f2f2;
   background-image: url("../images/divider-vector.svg"), url("../images/index-background.jpg");
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
