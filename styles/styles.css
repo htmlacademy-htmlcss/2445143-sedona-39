@@ -496,14 +496,30 @@ justify-content:space-between;
 }
 
 .product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 1060px;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
   list-style-type: none;
-  margin: 40px 70px 0 70px;
+  margin: 40px 70px 80px 70px;
   padding: 0;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #ffffff;
+  display: grid;
+  margin: 20px;
+  grid-template-rows: 212px 16px 28px 16px 21px 16px 36px 16px 37px;
+  grid-template-columns: 140px 20px 140px;
+}
+
+.product-card-title {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
 }
 
 .product-card-link {
@@ -517,10 +533,16 @@ justify-content:space-between;
 
 .product-card-type {
   text-align: left;
+  margin: 0;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
 }
 
 .product-card-price {
-  text-align: left;
+  text-align: right;
+  margin: 0;
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
 }
 
 .product-card-button {
@@ -528,15 +550,14 @@ justify-content:space-between;
   font-weight: 700;
   line-height: 20px;
   text-align: center;
+  padding-top: 8px;
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
-  width: Fill (140px);
-  height: Hug (36px);
-  padding: 8px, 50px, 8px, 50px;
   border-radius: 4px;
-  gap: 10px;
   background: #756157;
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
 }
 
 .add-favorite-button {
@@ -547,25 +568,24 @@ justify-content:space-between;
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
-  width: 140px;
-  height: 36px;
-  padding: 8px, 50px, 8px, 50px;
+  padding-top: 8px;
   border-radius: 4px;
-  gap: 10px;
   background: #82b3d3;
+  grid-column: 3 / 4;
+  grid-row: 7 / 8;
 }
 
 .product-card-raiting {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  padding-top: 9px;
   text-transform: uppercase;
   color: #333333;
-  width: 140px;
-  height: 37px;
+  padding-top: 9px;
   border-radius: 4px;
   background: #f2f2f2;
+  grid-column: 3 / 4;
+  grid-row: 9 / 10;
 }
 
 .pagination {
