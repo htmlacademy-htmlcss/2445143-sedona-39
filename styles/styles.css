@@ -38,7 +38,7 @@ body {
 .navigation {
   display: flex;
   padding: 0 0 0 70px;
-  margin: -6px auto;
+  margin: 0 auto;
 }
 
 .navigation-list {
@@ -51,6 +51,7 @@ body {
 .navigation-link {
   display: flex;
   justify-content: space-between;
+  margin: 0;
   padding: 20px 16px;
   list-style-type: none;
   font-size: 20px;
@@ -103,7 +104,8 @@ body {
 
 .page-container {
   width: 1200px;
-  margin: 0 auto;
+  margin: -10px auto;
+  z-index: -1;
 }
 
 .hero {
@@ -113,7 +115,6 @@ body {
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
   background-position: left bottom, left top;
-
 }
 
 .hero-img {
@@ -375,6 +376,7 @@ justify-content:space-between;
   background-size: cover;
   max-width: 1200px;
   margin-top: -6px;
+  z-index: -1;
 }
 
 .inner-header-title {
