@@ -39,6 +39,7 @@ body {
   display: flex;
   padding: 0 0 0 70px;
   margin: 0 auto;
+
 }
 
 .navigation-list {
@@ -97,15 +98,11 @@ body {
 
 /* main */
 
-.main-container {
+.main-index {
   display: flex;
-  flex-grow: 1;
-}
-
-.page-container {
+  flex-direction: column;
   width: 1200px;
-  margin: -10px auto;
-  z-index: -1;
+  flex-grow: 1;
 }
 
 .hero {
@@ -115,6 +112,8 @@ body {
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
   background-position: left bottom, left top;
+  margin-top: -10px;
+  z-index: -1;
 }
 
 .hero-img {
@@ -375,8 +374,7 @@ justify-content:space-between;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1200px;
-  margin-top: -6px;
-  z-index: -1;
+  margin-top: -10px;
 }
 
 .inner-header-title {
@@ -490,6 +488,7 @@ justify-content:space-between;
   text-align: left;
   text-transform: uppercase;
   margin: 0;
+  padding: 0;
 }
 
 .select-control {
