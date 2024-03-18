@@ -48,7 +48,7 @@
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-home-link" href="index.html">Главная</a>
+              <a class="breadcrumbs-home-link" href="index.html"></a>
             </li>
             <li class="breadcrumbs-item">
               <img class="breadcrumbs-item-logo">
@@ -106,18 +106,21 @@
               </ul>
             </fieldset>
             <fieldset class="catalog-filter-group-right">
-              <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-              <label class="filter-range-control">От <input type="text" name="min-interval" value="0"></label>
-              <label class="filter-range-control">До <input type="text" name="max-interval" value="9000"></label>
-              <button class="filter-range-handle min" type="button">
-                <span class="visually-hidden ">Управление нижней границей стоимости</span>
-              </button>
-              <button class="range-toggle toggle-max" type="button">
-                <span class="visually-hidden ">Управление верхней границей стоимости</span>
-              </button>
-              <button class="catalog-filter-submit" type="submit">Применить</button>
-              <button class="catalog-filter-reset" type="reset">Сбросить</button>
-              </form>
+              <li class="catalog-filter-price">
+                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                <label class="filter-range-control">От <input type="text" name="min-interval" value="0"></label>
+                <label class="filter-range-control">До <input type="text" name="max-interval" value="9000"></label>
+                <button class="filter-range-handle min" type="button">
+                  <span class="visually-hidden ">Управление нижней границей стоимости</span>
+                </button>
+                <button class="range-toggle toggle-max" type="button">
+                  <span class="visually-hidden ">Управление верхней границей стоимости</span>
+                </button>
+              </li>
+              <li class="catalog-filter-buttons">
+                <button class="catalog-filter-submit" type="submit">Применить</button>
+                <button class="catalog-filter-reset" type="reset">Сбросить</button>
+              </li>
             </fieldset>
         </section>
         <section class="catalog-products" data-test="catalog">
