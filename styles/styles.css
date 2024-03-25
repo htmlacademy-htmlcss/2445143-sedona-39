@@ -758,6 +758,7 @@ justify-content:space-between;
 
 .range-wrapper-input {
   display: grid;
+  position: relative;
   grid-template-columns: repeat(2, 143px);
   grid-gap: 2px;
   margin-top: 32px;
@@ -769,8 +770,8 @@ justify-content:space-between;
   font-weight: 700;
   border-radius: 4px 0 0 4px;
   border: none;
-  padding: 12px 112px 12px 20px;
-  background-color: #ffffff;
+  padding: 12px 40px 12px 20px;
+  background-color: #f2f2f2;
   background-image: url("../images/input-from.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
@@ -783,7 +784,7 @@ justify-content:space-between;
   font-weight: 700;
   border-radius: 0 4px 4px 0;
   border: none;
-  padding: 12px 112px 12px 20px;
+  padding: 12px 40px 12px 20px;
   background-color: #ffffff;
   background-image: url("../images/input-to.svg");
   background-repeat: no-repeat;
@@ -799,7 +800,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .field-price:focus {
   color: #000000;
-  border: 3px solid #83b3d3;
+  outline: 3px solid #83b3d3;
   background-color: #e6e6e6;
 }
 
@@ -1222,6 +1223,10 @@ input[type="number"]::-webkit-outer-spin-button {
   box-sizing: border-box;
 }
 
+.subscribe-catalog {
+  padding: 96px 0 104px 0;
+}
+
 .subscribe-title-catalog {
   font-size: 30px;
   font-weight: 700;
@@ -1229,7 +1234,7 @@ input[type="number"]::-webkit-outer-spin-button {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
-  margin: 156px 0 0 0;
+  margin: 0;
 }
 
 .subscribe-description-catalog {
@@ -1237,8 +1242,67 @@ input[type="number"]::-webkit-outer-spin-button {
   line-height: 26px;
   color: #000000;
   text-align: center;
-  margin: 20px 362px 0 362px;
+  max-width: 475px;
+  margin: 20px auto 54px;
 }
+
+.subscribe-form-catalog {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-weight: 400;
+}
+
+.field-catalog {
+  font-family: "PT Sans", sans-serif;
+  margin: 0 0 0 258px;
+}
+
+.field-catalog:focus {
+  color: #000000;
+  outline: 3px solid #83b3d3;
+  background-color: #e6e6e6;
+}
+
+.field-catalog:hover {
+  background-color: #e6e6e6;
+}
+
+.subscribe-button-catalog {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 8px 50px 8px 50px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background: #82b3d3;
+  cursor: pointer;
+}
+
+.subscribe-button-catalog:hover,
+.subscribe-button-catalog:focus {
+  background-color: #68a2ca;
+}
+
+.subscribe-button-catalog:active {
+  color: #ffffff4d;
+  background-color: #82b3d3;
+}
+
+.subscribe-button-catalog:disabled {
+  background-color: #e5e5e5;
+  outline: none;
+  cursor: default;
+}
+
+
+
+
 
 /* catalog footer */
 
