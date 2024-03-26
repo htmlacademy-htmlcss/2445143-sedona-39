@@ -138,46 +138,5 @@
       <a class="footer-phone" href="+78128121212">+7 (812) 812-12-12</a>
       <a class="footer-logo" href="https://htmlacademy.ru"></a>
     </footer>
-    <div class="modal-container modal-container-hidden">
-      <div class="modal modal-search-hotel" data-test="modal">
-        <h2 class="title modal-search-title">Поиск гостиницы в Седоне</h2>
-        <button class="modal-close-button" type="button">
-          <span class="visually-hidden">Закрыть</span>
-        </button>
-        <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="modal-subtitle" for="data-arrival-id">Дата Заезда:</label>
-          <div class="modal-wrapper-input">
-            <input class="modal-data data-arrival" type="text" name="data-arrival" id="data-arrival-id" value="27 апреля 2020" required>
-            <label class="modal-data-icon" for="data-arrival-id" aria-hidden="true"></label>
-            <span class="data-note note-error">Мы не можем отправить вас в прошлое.</span>
-          </div>
-          <label class="modal-subtitle" for="data-out-id">Дата Выезда:</label>
-          <div class="modal-wrapper-input">
-            <input class="modal-data data-out" type="text" name="data-out" id="data-out-id" value="1 сентября 2023" required>
-            <label class="modal-data-icon" for="data-out-id" aria-hidden="true"></label>
-            <span class="data-note data-out-note">На эти даты есть свободные номера. Пока есть.</span>
-          </div>
-          <label class="modal-subtitle modal-subtitle-people" for="number-adult-id">Взрослые:</label>
-          <span class="number-input-button input-button-adult">
-            <input class="number-people number-adult" type="number" name="number-adult" id="number-adult-id" min="0" value="2" required>
-            <button class="number-button number-button-minus" type="button"><span class="visually-hidden">Уменьшить количество взрослых</span></button>
-            <button class="number-button number-button-plus" type="button"><span class="visually-hidden">Увеличить количество взрослых</span></button>
-          </span>
-          <span class="label-tooltip label-tooltip-wrapper">
-            <label class="modal-subtitle modal-subtitle-people modal-subtitle-child label-tooltip" for="number-child-id">Дети:</label>
-            <span class="tooltip">
-              <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date"></button>
-              <span class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-            </span>
-          </span>
-          <span class="number-input-button input-button-child">
-            <input class="number-people number-child" type="number" name="number-child" id="number-child-id" min="0" value="2" required>
-            <button class="number-button number-button-minus" type="button"><span class="visually-hidden">Уменьшить количество детей</span></button>
-            <button class="number-button number-button-plus" type="button"><span class="visually-hidden">Увеличить количество детей</span></button>
-          </span>
-          <button class="modal-submit" type="submit">Найти</button>
-        </form>
-      </div>
-    </div>
   </body>
 </html>
