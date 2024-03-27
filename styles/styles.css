@@ -1251,7 +1251,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .field-catalog {
   font-family: "PT Sans", sans-serif;
-  margin: 0 0 0 258px;
+  margin: 0;
 }
 
 .field-catalog:focus {
