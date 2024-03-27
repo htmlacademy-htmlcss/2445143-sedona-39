@@ -1,14 +1,14 @@
 # Личный проект «Седона»
 
 * Студент: [Григорий Курятов](https://up.htmlacademy.ru/htmlcss/39/user/2445143).
-* Наставник: `Неизвестно`.
-
+* Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
+* Сайт: [Мой проект Седона](https://gbuilder75.github.io/2445143-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
----
+---л
 
 ### Памятка
 
