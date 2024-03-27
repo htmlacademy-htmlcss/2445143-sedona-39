@@ -521,6 +521,10 @@ justify-content:space-between;
   list-style-type: none;
 }
 
+.footer-social-link {
+  list-style-type: none;
+}
+
 .footer-social-link::before {
   content: "";
   display: block;
